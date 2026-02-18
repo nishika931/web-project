@@ -7,8 +7,8 @@
     height: 60px;
     background-color: #0F1111;
     color:white;
-    display:flex; /*for navbar so that they should be in the same line*/
-    align-items: center; /*to align all sub-div in center*/
+    display:flex; 
+    align-items: center; 
     justify-content: space-evenly;;
 }
 .nav-logo {
@@ -64,12 +64,12 @@
     background-color: #f3f3f3;
     width: 50px;
     text-align: center;
-    border-top-left-radius: 4px; /*to curve the only from top left*/
-    border-bottom-left-radius: 4px; /*to curve the only from bottom left*/
+    border-top-left-radius: 4px; 
+    border-bottom-left-radius: 4px; 
     border:none;
 }
 .search-input {
-    width: 100%; /*remaining space in div occupies by search bar*/
+    width: 100%; 
     font-size: 1rem;
     border:none;
 }
@@ -80,8 +80,8 @@
     align-items: center;
     font-size: 1.2rem;;
     background-color: #febd68;
-    border-top-right-radius: 4px; /*to curve the only from top right*/
-    border-bottom-right-radius: 4px; /*to curve the only from bottom right*/
+    border-top-right-radius: 4px; 
+    border-bottom-right-radius: 4px; 
     color: #0f1111;
 
 }
@@ -95,7 +95,7 @@ span {
 }
 /*fifth div in nav bar*/
 .cart i {      
-    font-size: 25px; /*cart i is styling apply to only icons of cart*/
+    font-size: 25px; 
 }
 .cart {
     font-size:0.85rem;
@@ -110,14 +110,14 @@ span {
 .panel {
     height: 40px;
     background-color: #222f3d;
-    display:flex; /*it is used to take all the block or box element like div span in one line*/
+    display:flex; 
     color: white;
     align-items: center;
     justify-content: space-evenly;
 
 }
 .op p{
-    display: inline; /*it is used to take all small tag like para and anchor in one line*/
+    display: inline;
     margin-left: 15px;
 }
 .op {
@@ -213,7 +213,7 @@ ul{
 }
 
 ul a{
-    display: block;   /*came in same line*/
+    display: block;  
     font-size:0.85rem;
     margin-top: 5px;
     color:#dddddd;
@@ -248,6 +248,7 @@ ul a{
 .last-line{
     padding-top: 5px;
 }
+
 
 
 
