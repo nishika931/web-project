@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%; 
+    min-height: 100vh;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+}
+
+.main {
+    background-color:#f7f7f7; 
+    flex: 1; 
+    min-height: 75vh; 
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    align-items: center;  
+    padding-top: 60px;    
+}
+
+img {
+    height: 56px;
+    width: 55px;
+}
+
+.login {
+    background-color: #ffffff;
+    border-radius: 6px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04); 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+    font-size: 13px;
+    font-weight: 300; 
+    width: 356px;
+    height: 340px;
+}
+
+.login h1 {
+    font-size: 28px;
+    font-weight: 300; 
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+label {
+    font-weight: 600;
+    color: #8c8c8c;
+}
+
+input {
+    width: 300px;
+    height: 45px;
+    border: 0.4px solid rgb(207, 205, 205);
+    border-radius: 8px;
+}
+
+a {
+    text-decoration: none;
+    color: #0fadff;
+    font-weight: bold;
+}
+
+button {
+    width: 80px;
+    height: 40px;
+    color: white;
+    background-color: #0fadff;
+    border-radius: 50px;
+    border: none;
+}
+
+.text {
+    display: flex;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 300;
+    gap: 10px;
+    margin-bottom: 3px;
+}
+
+.text a {
+    color: #16191c;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* Footer */
+.footer {
+    background-color: #fbfbfb; 
+    width: 100%;
+    color: black;
+    padding: 8px ;
+    text-align: center;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    font-size: 13px;
+    justify-content: flex-start;
+    gap: 85px;
+}
+
+.list p {
+    font-size: 13px;
+    font-weight: 400; 
+    margin-top: 10px; 
+    padding-right: 30px;
+}
+.selector{
+    display: flex;
+    padding-left: 50px;
+    flex-direction: column; 
+    align-items: flex-start; 
+    gap: 5px;               
+     
+}
+.selector label{
+    font-size: 13px;
+    font-weight: 100;
+    color: black;
+}
+select{
+    height: 35px;
+    width:200px;
+    border: 0.5px solid rgb(183, 182, 182);
+    border-radius: 3px;
+}
+.last-text{
+    margin-top: 25px;
+    height:70px;
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color:#090a0a;
+    color:white;
+    padding-left: 50px;
+    gap:35px;
+}
+
